@@ -3,6 +3,7 @@
 lesson-tasks
 
 lesson task 1:
+
 -Console log the current day of the week
 
 -Console log 3 multiplied by 6
