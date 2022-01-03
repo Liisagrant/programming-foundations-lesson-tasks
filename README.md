@@ -1,7 +1,5 @@
 # programming-foundations-lesson-tasks
 
-lesson-tasks
-
 lesson task 1:
 
 -Console log the current day of the week
