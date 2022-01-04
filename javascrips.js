@@ -11,9 +11,9 @@ var animal = "frog";
 //Create a variable called delivered and assign it the boolean value true.
 var delivered = true;
 //Create a variable called score and assign it the number value 12.
-var score = "12";
+var score = 12;
 //Create a variable called fullName and assign it the result of joining the string values “John” and “Smith”.
 var firstName = "John";
 var lastName = "Smith";
-var fullName = firstName + lastName; 
+var fullName = firstName + " " + lastName; 
 console.log (fullName);
