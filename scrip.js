@@ -30,6 +30,33 @@ console.log(nameType);// string
 Given the following variable declaration var age = 10; write an if-else statement that checks if age is greater than or equal to 7. If it is, console log the string “Greater than or equal to 7”. If it is not, console log the string “Less than 7”.
  */
 var age = 10;
+if(age >= 7) {
+    console.log("Grater than or equal to 7");
+}
+else if (age < 7) {
+    console.log("Less than 7");
+}
+/*Given the following variable declaration var animal = “cat”; write an if-else-if-if statement that checks the value of animal. Check if animal is equal to “parrot”. If it is, console log the string “The animal has two legs”. Check if animal is equal to “cat”. If it is, console log the string “The animal has four legs”. If animal is neither “parrot” nor “cat”, console log the string “The animal has an unknown amount of legs”. Check your code by changing the value of the animal variable.*/
+var animal = "cat";
+console.log(animal)
+if (animal === "parrot") {
+    console.log("the animal has two legs");
+}
+else if(animal === "cat") {
+    console.log("The animal has four legs");
+}
+else if (animal !== "cat" + "parrot") {
+    console.log("The animal has an unkonwn amount of legs");
+}
+
+
+
+
+
+
+
+
+
 
 
 
