@@ -36,7 +36,8 @@ if(age >= 7) {
 else if (age < 7) {
     console.log("Less than 7");
 }
-/*Given the following variable declaration var animal = “cat”; write an if-else-if-if statement that checks the value of animal. Check if animal is equal to “parrot”. If it is, console log the string “The animal has two legs”. Check if animal is equal to “cat”. If it is, console log the string “The animal has four legs”. If animal is neither “parrot” nor “cat”, console log the string “The animal has an unknown amount of legs”. Check your code by changing the value of the animal variable.*/
+/*Given the following variable declaration var animal = “cat”; write an if-else-if-if statement that checks the value of animal.
+Check if animal is equal to “parrot”. If it is, console log the string “The animal has two legs”. Check if animal is equal to “cat”. If it is, console log the string “The animal has four legs”. If animal is neither “parrot” nor “cat”, console log the string “The animal has an unknown amount of legs”. Check your code by changing the value of the animal variable.*/
 var animal = "cat";
 console.log(animal)
 if (animal === "parrot") {
@@ -46,8 +47,85 @@ else if(animal === "cat") {
     console.log("The animal has four legs");
 }
 else if (animal !== "cat" + "parrot") {
-    console.log("The animal has an unkonwn amount of legs");
+    console.log("The animal has an unknown amount of legs");
 }
+//Write a for loop that logs a number from 1 to 5
+for (var count = 1; count <=5; count++){
+ console.log(count);
+}
+//Write a for loop that logs a number from 7 to 16
+for (var count = 7; count <=16; count++){
+ console.log(count);
+}
+
+//Given this array var animals = [“dog”, “cat”, “frog”]; use a for loop to console log each animal in the array.
+var animals = [
+    "dog",
+    "cat",
+    "frog"
+];
+
+var numberOfAnimal = animals.length;
+console.log(numberOfAnimal);
+
+for (var i = 0; i < numberOfAnimal; i++) {
+    console.log(animals[i]);
+}
+
+for (var i = 0; i < numberOfAnimal; i++) {
+    console.log(animals[0]);
+}
+for (var i = 0; i < numberOfAnimal; i++) {
+    console.log(animals[1]);
+}
+for (var i = 0; i < numberOfAnimal; i++) {
+    console.log(animals[2]);
+}
+/*
+for (i = 5; i<=25; i++){
+    console.log(i);
+}
+var smallAnimal = [
+    "cat",
+    "dog" ,
+    "fish",
+    "ant"
+];
+var profile = [
+    {name:"Lisa"}  ,
+    {surname: "Grant"},
+    {age: "32"},
+    {work: "student"}
+];
+var colour = [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "pink",
+    "big",
+    "red",
+    "red"
+];
+/*
+console.log(colour[0]);
+console.log(colour[1]);
+console.log(colour[2]);
+console.log(colour[3]);
+
+var numberOfColour = colour.length;    */ 
+//console.log(numberOfColour);
+//console.log(colour.length);
+
+
+
+
+
+
+
+
+
+
 
 
 
