@@ -65,10 +65,12 @@ var animals = [
     "frog"
 ];
 
+console.log(animals);
+
 var numberOfAnimal = animals.length;
 console.log(numberOfAnimal);
 
-for (var i = 0; i < numberOfAnimal; i++) {
+for (var i = 0; i < animals.length; i++) {
     console.log(animals[i]);
 }
 
@@ -116,6 +118,63 @@ console.log(colour[3]);
 var numberOfColour = colour.length;    */ 
 //console.log(numberOfColour);
 //console.log(colour.length);
+
+var selectedNumber = 70;
+
+if (selectedNumber >= 10 && selectedNumber <=50) {
+    console.log("all good");
+}
+else {
+    console.log("no good")
+}
+
+var dayOfTheWeek = "saturday";
+if (dayOfTheWeek === "saturday" || dayOfTheWeek === "sunday") {
+    console.log("good stuff!!!!")
+}
+else {
+    console.log("sad times")
+}
+
+if (true && true) {
+    console.log("here");
+}
+
+if (true || false) {
+    console.log("party");
+}
+
+var someArray = ["lisa","linda","emil","uzo"];
+//var numberOfArryItems = someArray.length;
+//console.log("number of items",numberOfArryItems);
+console.log(someArray.push("carl"));
+console.log(someArray);
+console.log(someArray.push("Robin"));
+console.log(someArray);
+console.log(someArray.push("Mia"));
+console.log(someArray);
+someArray.push("Sara");
+/*console.log(someArray);
+someArray.pop();
+console.log(someArray);
+someArray.unshift("lisa");
+console.log(someArray);*/
+
+var pets = [
+    {
+        type: "cat",
+        age: 5.5,
+    },
+    {
+        type:"dog",
+        age: 3.8,
+    },
+    {
+        type: "parrot",
+        age: 4.0,
+    },
+];
+
 
 
 
