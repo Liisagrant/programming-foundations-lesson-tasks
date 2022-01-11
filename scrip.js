@@ -1,5 +1,6 @@
 // Lesson task 1.1
 //Console log the current day of the week
+/*
 var d = new Date();
 console.log(d);
 var day= d.getDay();
@@ -29,6 +30,7 @@ console.log(nameType);// string
 /*
 Given the following variable declaration var age = 10; write an if-else statement that checks if age is greater than or equal to 7. If it is, console log the string “Greater than or equal to 7”. If it is not, console log the string “Less than 7”.
  */
+/*
 var age = 10;
 if(age >= 7) {
     console.log("Grater than or equal to 7");
@@ -38,6 +40,7 @@ else if (age < 7) {
 }
 /*Given the following variable declaration var animal = “cat”; write an if-else-if-if statement that checks the value of animal.
 Check if animal is equal to “parrot”. If it is, console log the string “The animal has two legs”. Check if animal is equal to “cat”. If it is, console log the string “The animal has four legs”. If animal is neither “parrot” nor “cat”, console log the string “The animal has an unknown amount of legs”. Check your code by changing the value of the animal variable.*/
+/*
 var animal = "cat";
 console.log(animal)
 if (animal === "parrot") {
@@ -118,7 +121,7 @@ console.log(colour[3]);
 var numberOfColour = colour.length;    */ 
 //console.log(numberOfColour);
 //console.log(colour.length);
-
+/*
 var selectedNumber = 70;
 
 if (selectedNumber >= 10 && selectedNumber <=50) {
@@ -159,42 +162,70 @@ someArray.pop();
 console.log(someArray);
 someArray.unshift("lisa");
 console.log(someArray);*/
+/*
+*/
+ var pets = [
+     {
+         type: "cats",
+         age: 5.5,
+     },
+     {
+         type:"dog",
+         age: 3.8,
+     },
+     {
+         type: "parrot",
+         age: 4.0,
+     },
+ ];
 
-var pets = [
-    {
-        type: "cat",
-        age: 5.5,
-    },
-    {
-        type:"dog",
-        age: 3.8,
-    },
-    {
-        type: "parrot",
-        age: 4.0,
-    },
+ for (var i = 0; i < pets.length; i++) {
+     if (pets[i].age >= 4) {
+         console.log(pets[i].type);
+     }
+ }
+
+/*
+var food = [
+    "Taco",
+    "pizza",
+    [ "cake", "cat", "party"],
+    [ "food", "is", "good"],
+
 ];
+ console.log(food);
 
+ var myDog = {
+     name: "Mike",
+     breed: "Collie",
+     legs: 4
+ };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ console.log(myDog.name);
+ console.log(myDog.legs);
+ console.warn(myDog);
+*/
+/**
+ * var theGrants = [
+ *     {
+ *         name: "lisa",
+ *         age: 32,
+ *         eyeColor: "green"
+ *     },
+ *     {
+ *         name: "Trygve",
+ *         age: 29,
+ *         eyeColor: "blue"
+ *     },
+ *     {
+ *         name: "ian",
+ *         age: 66,
+ *         eyeColor: "blue"
+ *     },
+ *     {
+ *         name: "Daniel",
+ *         age: 31,
+ *         eyeColor: "brown"
+ *     }
+ * ]
+ */
