@@ -277,7 +277,7 @@ function getNumberOfLikes (numberOfLikes) {
 var totalNumberOfLikes = getNumberOfLikes(40);
 console.log(totalNumberOfLikes)
 */
-
+/*
 
 function getSum(num1, num2){
     console.log(num1 + num2);
@@ -295,3 +295,24 @@ function getAllNames(name1, name2, name3) {
 }
 
 getAllNames("lisa", "Grant", "Woods");
+*/
+//Create a function called printName.
+  //  Give the function one argument called name.
+    //Inside the function console log the name argument.
+    //Call the function and pass your name in as an argument.
+    //Create a function called returnName that accepts one argument called name.
+    //Inside the function add the string “Hello “ to the argument and return it.
+    //Call the function, pass in your name as the argument and assign the return value to a variable.
+    //Console log the variable. It should log, for example, “Hello John”.
+
+/*function printName(name){
+    console.log(name);
+}
+printName("Lisa");*/
+
+function returnName(name) {
+    return "hello " + name;
+}
+
+var greetings = returnName("lisa");
+console.log(greetings);
