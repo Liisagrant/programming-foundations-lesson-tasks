@@ -1,5 +1,5 @@
 // Lesson task 1.1
-//Console log the current day of the week
+//Console log the current day of the week/
 var d = new Date();
 console.log(d);
 var day= d.getDay();
@@ -61,6 +61,7 @@ for (var count = 7; count <=16; count++){
 }
 
 //Given this array var animals = [“dog”, “cat”, “frog”]; use a for loop to console log each animal in the array.
+/*
 var animals = [
     "dog",
     "cat",
@@ -162,7 +163,7 @@ someArray.pop();
 console.log(someArray);
 someArray.unshift("lisa");
 console.log(someArray);*/
-
+/*
  var pets = [
      {
          type: "cats",
@@ -250,27 +251,47 @@ var personOne = nameGenerator("Daniel","Woods");
 console.log("hello " + personOne);
 var personTwo = nameGenerator("lisa", "Grant");
 console.log("Hello " + personTwo);
-/**
- * var theGrants = [
- *
- *         name: "lisa",
- *         age: 32,
- *         eyeColor: "green"
- *     },
- *     {
- *         name: "Trygve",
- *         age: 29,
- *         eyeColor: "blue"
- *     },
- *     {
- *         name: "ian",
- *         age: 66,
- *         eyeColor: "blue"
- *     },
- *     {
- *         name: "Daniel",
- *         age: 31,
- *         eyeColor: "brown"
- *     }
- * ]
- */
+
+//task from class
+
+function addingNumbers(numberOne, numberTwo) {
+    var total = numberOne + numberTwo;
+    console.log(total);
+}
+
+function TwoCoulours(col1, col2){
+    console.log(col1, col2);
+}
+TwoCoulours("blue", "red");
+
+
+function MoreColToTry(col3, col4, col5) {
+    console.log(col3 + " is the best colour " + col4 + " and " + col5 + " not nice");
+}
+MoreColToTry("green", "red", "lilla");
+
+function getNumberOfLikes (numberOfLikes) {
+    return numberOfLikes + " likes";
+}
+
+var totalNumberOfLikes = getNumberOfLikes(40);
+console.log(totalNumberOfLikes)
+*/
+
+
+function getSum(num1, num2){
+    console.log(num1 + num2);
+}
+getSum(109,288);
+
+function getMulti(num1, num2){
+    console.log (num1 * num2);
+}
+
+getMulti(9,3);
+
+function getAllNames(name1, name2, name3) {
+    console.log("hello " + name1 + " " + name2 + " " + name3);
+}
+
+getAllNames("lisa", "Grant", "Woods");
