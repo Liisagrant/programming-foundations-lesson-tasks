@@ -309,10 +309,31 @@ getAllNames("lisa", "Grant", "Woods");
     console.log(name);
 }
 printName("Lisa");*/
-
+/*
 function returnName(name) {
     return "hello " + name;
 }
 
 var greetings = returnName("lisa");
 console.log(greetings);
+
+/*
+var square = function (number) {
+    return number * number
+};
+
+var x = square(10);
+console.log(x);
+//var x = square(4);*/
+
+function printName (name) {
+ console.log( name);
+}
+printName("Lisa");
+
+function returnName(name) {
+    return "Hello " + name;
+}
+
+var helloOnYou = returnName("Lisa") ;
+    console.log(helloOnYou);
